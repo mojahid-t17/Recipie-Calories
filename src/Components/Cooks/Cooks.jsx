@@ -12,7 +12,7 @@ const Cooks = ({cookItems,deletePreparingItems}) => {
     }
     console.log(currentCooking)
     return (
-        <div className="md:w-1/4 ">
+        <div className="">
             {/* want to cook section**********************************
              */}
             <h1 className="text-2xl font-bold text-center my-4">Want Cook: {cookItems.length}</h1>

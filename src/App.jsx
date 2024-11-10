@@ -46,9 +46,9 @@ function App() {
            </div>
        <div className='flex md:flex-row flex-col-reverse'>
        <Recipies handleCooking={handleCooking}
-       
+      
        ></Recipies>
-       <Cooks cookItems={cookItems} deletePreparingItems={deletePreparingItems}></Cooks>
+       <Cooks cookItems={cookItems} deletePreparingItems={deletePreparingItems}  ></Cooks>
        <Toaster position="top-right"
   reverseOrder={false}/>
 
